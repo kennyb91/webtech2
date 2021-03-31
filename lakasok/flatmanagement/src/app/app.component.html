@@ -1,0 +1,33 @@
+<div>
+    <h1 class="title">{{title}}</h1>
+    <h2 class="introduction">   
+        Keresztes Balázs<br/>
+        RBDOVS<br/>
+        Github repo: <a href="https://github.com/kennyb91/webtech2" target="_blank">Github</a>
+    </h2>
+</div>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="home">Main Menu</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link active" href="./lakasok">Új lakás</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+
+<router-outlet></router-outlet>
+
+<div class="row">
+    <div class="col-md-8">
+        This message only on home page!
+    </div>
+</div>
